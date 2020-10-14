@@ -749,7 +749,13 @@ color: rgba(255, 255, 255, 0.6);
   transform: translateY(0%);
 
   }
-
+  .portfolio-list-link:focus .overlay-portfolio{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0%);
+  
+    }
   .portfolio-list-link{
   display: block;
   transition-duration: 250ms;
